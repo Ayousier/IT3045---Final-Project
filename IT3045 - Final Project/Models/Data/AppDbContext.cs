@@ -10,5 +10,6 @@ namespace IT3045___Final_Project.Data
         }
 
         public DbSet<TeamMember> TeamMembers { get; set; }
+        public DbSet<FavoriteMovie> FavoriteMovies { get; set; }
     }
 }
